@@ -1,138 +1,36 @@
 <!DOCTYPE html>
-<!-- saved from url=(0043)http://127.0.0.1:5500/html%20tut/hotel.html -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        body{
-    background-color: blue;
-            
-        }
-        h1{
-            text-align: center;
-
-        }
-        img{
-            width: 100%;
-
-        }
-        ol{
-            border: 2px solid rebeccapurple;
-            height: 160px;
-            width: 100%;
-            background-color: rgb(252 252 252);
-
-        }
-       li{
-            opacity: 27;
-            
-        }
-        span img{
-            width: 262px;
-        }
-    </style>
-</head>
-<body>
-
-    <img src="./hotel_files/istockphoto-1159992039-612x612.jpg" height="350" alt="">
-    <marquee behavior="" scrollamount="20" direction=""><h1><u>WELCOME TO ROYAL RESTAURANT</u></h1></marquee> 
-<span>
-    <img src="./hotel_files/game-day-nachos-appetizer-recipe1-680x680.jpg" height="180" alt="">
-    <img src="./hotel_files/70a94b6fe58a0fe3de97fead758d3e54.jpg" height="180" alt="" srcset="">
-    <img src="./hotel_files/2.jpg" height="180" alt="" srcset="">
-    <img src="./hotel_files/BeFunky-Collage-1-1024x1024-1.jpg" height="180" alt="" srcset="">
-</span>
-    <p>SEE THE MENU AND ORDER </p>
-
-    <li>STARTERS</li>
-        <ol>
-            <li>CHIPS</li>
-            <li>PASTA</li>
-            <li>MAGGI</li>
-            <li>MOMOS</li>
-            <li>SAMOSA</li>
-            <li>PATTIES</li>
-            <li>MANCHURIAN</li>
-            <li>SANDWICH</li>
-            <li>PIZZA</li>
-            </ol>
-            
-            <li>MAIN COURSE VEG</li>
-            <ol>
-                <li>KADHAI PANEER AND BUTTER NAAN</li>
-                <li>ALOO PARATHA WITH CHUTNEY</li>
-                <li>KACHORI </li>
-                <li>FRIED RICE</li>
-                <li>PLAIN RICE WITH DAL</li>
-              </ol>
-              <li>NON VEG</li>
-              <ol>
-                <li>CHICKEN TIKKA</li>
-                <li>BUTTER CHICKEN</li>
-                <li>CHICKEN DO PYAZA</li>
-                <li>BONELESS CHICKEN</li>
-                <li>CHICKEN LOLLIPOP</li>
-                <li>MUTTON HANDI</li>
-                <li>LAMB KEBAB</li>
-                <li>PORK</li>
-              </ol>
-              <li>DESSERT</li>
-              <ol>
-                <li>GULAB JAMUN         </li>
-                <li>ROSOGULLA           </li>
-                <li>RASMALAI            </li>
-                <li>JALEBI              </li>
-                <li>KAJU BARFI          </li>
-                <li>MAAKHAN BHOG         </li>
-                <li>BOONDI LADOO         </li>
-                <li>VANILLA CAKE         </li>
-              </ol>
-              <hr>
-              <div>By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2022 © Zomato™ Ltd. All rights reserved</div>
-              <hr>
-    <div>Malaviya National Institute of Technology Jaipur
-        Jawahar Lal Nehru Marg,
-        Jaipur-302017 (Rajasthan) INDIA
-        webmaster[at]mnit.ac.in
+    <title>Hotel Jaipur</title>
+    </head>
+    <link rel="stylesheet" href="style.css" class="css">
+    <body style="background: url('https://www.bing.com/th?id=OIP.ENy-aTSC0ParUoYNgJkRLQHaLH&w=204&h=306&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2') no-repeat center center/cover;">
+  <nav id="navbar">
+    <div id="logo" >
+       <img src="https://th.bing.com/th/id/OIP.3Nuj4jRmboKn15HOjNBCGgHaE8?w=278&h=185&c=7&r=0&o=5&dpr=1.35&pid=1.7" alt="jaipur">
     </div>
-<!-- Code injected by live-server -->
-<script type="text/javascript">
-	// <![CDATA[  <-- For SVG support
-	if ('WebSocket' in window) {
-		(function () {
-			function refreshCSS() {
-				var sheets = [].slice.call(document.getElementsByTagName("link"));
-				var head = document.getElementsByTagName("head")[0];
-				for (var i = 0; i < sheets.length; ++i) {
-					var elem = sheets[i];
-					var parent = elem.parentElement || head;
-					parent.removeChild(elem);
-					var rel = elem.rel;
-					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
-						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
-						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
-					}
-					parent.appendChild(elem);
-				}
-			}
-			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
-			var address = protocol + window.location.host + window.location.pathname + '/ws';
-			var socket = new WebSocket(address);
-			socket.onmessage = function (msg) {
-				if (msg.data == 'reload') window.location.reload();
-				else if (msg.data == 'refreshcss') refreshCSS();
-			};
-			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
-				console.log('Live reload enabled.');
-				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
-			}
-		})();
-	}
-	else {
-		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
-	}
-	// ]]>
-</script>
-</body></html>
+    <ul>
+       <li class="item"><a href="">Home</a></li>
+       <li class="item"><a href="">Services Provided</a></li>
+       <li class="item"><a href="">About Us</a></li>
+       <li class="item"><a href="">contact us</a></li>
+       <li class="item"><a href="">customer reviews</a></li>
+    </ul>
+    </nav>
+    <section id="home">
+        <h1 class="h->primary">
+            WELCOME TO HOTEL JAIPUR
+        </h1>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, at?
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, duc
+        </p>
+
+    </section>
+    </body>
+    </html>
